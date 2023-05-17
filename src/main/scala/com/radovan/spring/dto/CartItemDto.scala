@@ -1,0 +1,16 @@
+package com.radovan.spring.dto
+
+import scala.beans.BeanProperty
+
+@SerialVersionUID(1L)
+class CartItemDto extends Serializable {
+
+  @BeanProperty var cartItemId:Integer = _
+  @BeanProperty var quantity:Integer = _
+  @BeanProperty var price:Float = _
+  @BeanProperty var productId:Integer = _
+  @BeanProperty var cartId:Integer = _
+
+
+}
+
